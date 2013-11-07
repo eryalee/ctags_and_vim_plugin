@@ -1,4 +1,20 @@
-vim
+ctags and vim
 ===
 
-vim rc and plugin
+Download the files and unzip them into ~/
+
+vimrc installation
+
+mv vimrc .vimrc
+
+
+
+ctags installation
+
+unzip ctags-master.zip
+
+cd ctags-master && ./configure && make && make install
+
+mkdir .vim && mv snipMate.zip taglist_45.zip ./vim 
+
+cd .vim && unzip *.zip
