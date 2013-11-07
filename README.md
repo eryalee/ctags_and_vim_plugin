@@ -1,7 +1,7 @@
 ctags and vim
 ===
 
-Download the files and unzip them into ~/
+Download the files and copy them into ~/
 
 vimrc installation
 
