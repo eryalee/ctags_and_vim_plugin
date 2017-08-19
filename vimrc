@@ -150,19 +150,3 @@ let Tlist_File_Fold_Auto_Close=1
 "auto close Tlist when exiting file.
 let Tlist_Exit_OnlyWindow = 1
 
-nnoremap <F4> :vsplit $MYVIMRC<cr>
-nnoremap <F3> :source $MYVIMRC<cr>
-
-nmap <F7> :copen<CR>
-nmap <F6> :cclose<CR> 
-
-" 插入模式切换
-map <F9> :set paste!<BAr>set paste?<CR>
-
-" 多 Tab 时翻页
-map <F12> <Esc>:tabnext<CR>gi <F11> :tabprevious<CR>
-imap <F12> <Esc>:tabnext<CR>gi <F11> <Esc>:tabprevious<CR>gi
-
-map <F12> <Esc>:tabnext<CR>gi <F12> :tabnext<CR>
-imap <F12> <Esc>:tabnext<CR>gi <F12> <Esc>:tabnext<CR>gi
-
