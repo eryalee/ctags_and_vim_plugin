@@ -27,6 +27,7 @@ syntax enable
 "set colorscheme
 "colorscheme elflord
 "endif
+colorscheme ron
 
 """""""""""""""""""""""""""""""""""""
 " VIM userinterface
@@ -106,13 +107,13 @@ set hlsearch
 set laststatus=2 " 一直显示状态栏
 
 "Encoding settings
-let $LANG="zh_CN.gbk"
+"let $LANG="zh_CN.gbk"
 "set fileencodings=gbk,chinese,latin-1
 "set termencoding=gbk
 "set encoding=gbk
-set fileencodings=cp936,utf-8,gbk,chinese,latin-1
-set termencoding=cp936
-set encoding=cp936
+"set fileencodings=cp936,utf-8,gbk,chinese,latin-1
+"set termencoding=cp936
+"set encoding=cp936
 
 " autocmd {{{
 "auto open the file last position
